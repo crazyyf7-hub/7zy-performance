@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#08080b" />
+  <title>7ZY Performance — Otimização para Jogos</title>
+  <meta name="description" content="7ZY Performance: painéis e otimizações para deixar o Windows mais leve, responsivo e preparado para jogos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+
+  <header class="site-header" id="topo">
+    <a class="brand" href="#topo" aria-label="7ZY Performance">
+      <span class="brand-mark">7</span><span>ZY</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#beneficios">Benefícios</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <a class="btn btn-small btn-outline" href="#produtos">Ver produtos</a>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> PERFORMANCE PARA QUEM JOGA SÉRIO</div>
+        <h1>SEU PC.<br><span>SEM DESPERDÍCIO.</span></h1>
+        <p>A 7ZY reúne ferramentas e otimizações para reduzir processos desnecessários, melhorar a resposta do sistema e preparar o Windows para entregar uma experiência mais limpa nos jogos.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#produtos">Conhecer a 7ZY</a>
+          <a class="btn btn-ghost" href="#resultados">Ver o que muda</a>
+        </div>
+        <div class="hero-trust">
+          <div><strong>Windows 10/11</strong><span>Compatível</span></div>
+          <div><strong>1 clique</strong><span>Otimizações rápidas</span></div>
+          <div><strong>Reversível</strong><span>Mais segurança</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-delay">
+        <div class="panel-window">
+          <div class="panel-topbar">
+            <div class="panel-logo"><b>7</b>ZY <small>PERFORMANCE</small></div>
+            <div class="window-dots"><i></i><i></i><i></i></div>
+          </div>
+          <div class="panel-body">
+            <aside class="panel-sidebar">
+              <span class="active">Visão geral</span>
+              <span>Otimização</span>
+              <span>Serviços</span>
+              <span>Limpeza</span>
+              <span>Rede</span>
+            </aside>
+            <div class="panel-content">
+              <div class="status-line"><span>SISTEMA</span><b>PRONTO PARA JOGAR</b></div>
+              <div class="metric-grid">
+                <div class="metric-card"><small>Processos</small><strong>63</strong><em>-28%</em></div>
+                <div class="metric-card"><small>Memória livre</small><strong>8.4 GB</strong><em>+18%</em></div>
+                <div class="metric-card"><small>Inicialização</small><strong>11.2s</strong><em>-34%</em></div>
+                <div class="metric-card"><small>Modo</small><strong>GAMING</strong><em>ATIVO</em></div>
+              </div>
+              <div class="optimizer-card">
+                <div>
+                  <small>OTIMIZAÇÃO RÁPIDA</small>
+                  <h3>Deixe o Windows pronto para jogar.</h3>
+                  <p>Limpeza, serviços e ajustes essenciais em um só lugar.</p>
+                </div>
+                <button type="button" id="demoOptimize">OTIMIZAR AGORA</button>
+              </div>
+              <div class="progress-row"><span>Estado da otimização</span><b id="progressText">87%</b></div>
+              <div class="progress"><i id="progressBar"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-chip chip-one">+ SISTEMA MAIS LIMPO</div>
+        <div class="floating-chip chip-two">● GAMING MODE</div>
+      </div>
+    </section>
+
+    <section class="logo-strip">
+      <span>FIVEM</span><span>VALORANT</span><span>CS2</span><span>FORTNITE</span><span>WARZONE</span><span>GTA V</span>
+    </section>
+
+    <section class="section-shell section-pad" id="beneficios">
+      <div class="section-heading reveal">
+        <div class="eyebrow"><span></span> POR QUE 7ZY</div>
+        <h2>NÃO É SÓ FPS.<br><span>É O PC INTEIRO.</span></h2>
+        <p>Uma central simples para cuidar dos pontos do Windows que mais atrapalham quem quer jogar com o mínimo de distração e desperdício.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><div class="icon">⚡</div><h3>Performance</h3><p>Ajustes focados em reduzir tarefas desnecessárias e deixar mais recursos disponíveis para os jogos.</p></article>
+        <article class="feature-card reveal"><div class="icon">🎯</div><h3>Resposta</h3><p>Configurações organizadas para um sistema mais direto, sem promessas irreais de milagre no hardware.</p></article>
+        <article class="feature-card reveal"><div class="icon">🧹</div><h3>Limpeza</h3><p>Remova arquivos temporários e resíduos comuns sem precisar procurar cada pasta manualmente.</p></article>
+        <article class="feature-card reveal"><div class="icon">🖥️</div><h3>Windows mais leve</h3><p>Tenha controle sobre itens em segundo plano e serviços que você realmente não utiliza.</p></article>
+        <article class="feature-card reveal"><div class="icon">🚀</div><h3>Inicialização</h3><p>Organize programas e tarefas que iniciam junto com o sistema para chegar ao desktop mais rápido.</p></article>
+        <article class="feature-card reveal"><div class="icon">↩</div><h3>Controle</h3><p>O objetivo é facilitar mudanças responsáveis e, quando possível, permitir voltar atrás.</p></article>
+      </div>
+    </section>
+
+    <section class="products-wrap" id="produtos">
+      <div class="section-shell section-pad">
+        <div class="section-heading center reveal">
+          <div class="eyebrow centered"><span></span> PRODUTOS 7ZY</div>
+          <h2>ESCOLHA SEU <span>NÍVEL.</span></h2>
+          <p>Comece pelo essencial ou leve o pacote mais completo.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-tag">ESSENCIAL</div>
+            <div class="product-icon">7C</div>
+            <h3>7ZY Clean</h3>
+            <p class="product-desc">Limpeza, serviços e organização do Windows para quem quer praticidade.</p>
+            <ul><li>Limpeza de temporários</li><li>Gerenciamento de serviços</li><li>Controle de processos</li><li>Interface simples</li></ul>
+            <div class="price"><small>a partir de</small><strong>R$ --,--</strong></div>
+            <a href="#" class="btn btn-product disabled-buy" data-product="7ZY Clean">Em breve</a>
+          </article>
+
+          <article class="product-card featured reveal">
+            <div class="popular">MAIS COMPLETO</div>
+            <div class="product-tag">PERFORMANCE</div>
+            <div class="product-icon">7U</div>
+            <h3>7ZY Ultimate</h3>
+            <p class="product-desc">A experiência 7ZY completa, reunindo os principais módulos em um só painel.</p>
+            <ul><li>Tudo do 7ZY Clean</li><li>Perfil gaming</li><li>Ajustes de rede</li><li>Otimização de inicialização</li><li>Perfis de desempenho</li></ul>
+            <div class="price"><small>a partir de</small><strong>R$ --,--</strong></div>
+            <a href="#" class="btn btn-product btn-primary disabled-buy" data-product="7ZY Ultimate">Em breve</a>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-tag">GAMING</div>
+            <div class="product-icon">7F</div>
+            <h3>7ZY FPS</h3>
+            <p class="product-desc">Perfil focado em preparar o sistema para jogos e reduzir o que estiver sobrando.</p>
+            <ul><li>Modo gaming</li><li>Plano de energia</li><li>Processos em segundo plano</li><li>Ajustes selecionados</li></ul>
+            <div class="price"><small>a partir de</small><strong>R$ --,--</strong></div>
+            <a href="#" class="btn btn-product disabled-buy" data-product="7ZY FPS">Em breve</a>
+          </article>
+        </div>
+        <p class="fineprint">* Os resultados variam conforme hardware, Windows, jogos e configurações. A 7ZY não promete aumento fixo de FPS.</p>
+      </div>
+    </section>
+
+    <section class="section-shell section-pad" id="resultados">
+      <div class="compare-grid">
+        <div class="section-heading reveal">
+          <div class="eyebrow"><span></span> ANTES X DEPOIS</div>
+          <h2>MENOS BAGUNÇA.<br><span>MAIS CONTROLE.</span></h2>
+          <p>O foco da 7ZY é tirar do caminho o que não precisa estar consumindo recursos enquanto você joga.</p>
+          <div class="check-list"><span>✓ Menos processos desnecessários</span><span>✓ Limpeza centralizada</span><span>✓ Ajustes fáceis de visualizar</span><span>✓ Perfil feito para jogos</span></div>
+        </div>
+        <div class="comparison-card reveal">
+          <div class="compare-head"><span>EXEMPLO VISUAL</span><b>7ZY ANALYZER</b></div>
+          <div class="bars">
+            <div class="bar-item"><div><span>Processos em segundo plano</span><b>Antes</b></div><div class="track"><i style="width:84%"></i></div></div>
+            <div class="bar-item optimized"><div><span>Processos em segundo plano</span><b>Depois</b></div><div class="track"><i style="width:48%"></i></div></div>
+            <div class="bar-item"><div><span>Itens na inicialização</span><b>Antes</b></div><div class="track"><i style="width:71%"></i></div></div>
+            <div class="bar-item optimized"><div><span>Itens na inicialização</span><b>Depois</b></div><div class="track"><i style="width:29%"></i></div></div>
+          </div>
+          <div class="compare-note">Valores demonstrativos. O painel real deve medir os dados do computador do usuário.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section section-shell reveal">
+      <div><div class="eyebrow"><span></span> 7ZY PERFORMANCE</div><h2>DEIXE SEU PC<br><span>PRONTO PARA O JOGO.</span></h2></div>
+      <a href="#produtos" class="btn btn-primary">Ver produtos</a>
+    </section>
+
+    <section class="section-shell section-pad faq-section" id="faq">
+      <div class="section-heading reveal"><div class="eyebrow"><span></span> DÚVIDAS</div><h2>FAQ <span>7ZY.</span></h2></div>
+      <div class="faq-list">
+        <details class="reveal"><summary>O 7ZY aumenta meu FPS?</summary><p>Ele pode ajudar a reduzir desperdícios do sistema e preparar o Windows para jogos, mas o FPS final depende do seu processador, placa de vídeo, memória, temperatura, jogo e configurações.</p></details>
+        <details class="reveal"><summary>Funciona no Windows 10 e 11?</summary><p>A proposta inicial é oferecer compatibilidade com Windows 10 e Windows 11. Cada módulo deve informar claramente quando alguma opção tiver limitação de versão.</p></details>
+        <details class="reveal"><summary>As alterações podem ser desfeitas?</summary><p>As funções mais importantes devem ter restauração ou indicar claramente o que será alterado antes da execução.</p></details>
+        <details class="reveal"><summary>Preciso entender de computador?</summary><p>Não. A interface é pensada para simplificar tarefas que normalmente ficariam espalhadas pelo Windows.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner section-shell">
+      <div><a class="brand footer-brand" href="#topo"><span class="brand-mark">7</span><span>ZY</span></a><p>Performance, controle e simplicidade.</p></div>
+      <div class="footer-links"><a href="#produtos">Produtos</a><a href="#faq">FAQ</a><a href="#">Discord</a><a href="#">Termos</a></div>
+    </div>
+    <div class="footer-bottom section-shell"><span>© 2026 7ZY Performance.</span><span>Desenvolvido para quem joga.</span></div>
+  </footer>
+
+  <div class="toast" id="toast">Demonstração concluída.</div>
+  <script src="script.js"></script>
+</body>
+</html>

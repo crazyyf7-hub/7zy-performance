@@ -1,0 +1,20 @@
+7ZY PERFORMANCE — PRIMEIRA VERSÃO
+
+COMO ABRIR:
+1. Extraia a pasta.
+2. Abra o arquivo index.html no navegador.
+
+ARQUIVOS:
+- index.html = conteúdo do site
+- style.css = visual completo
+- script.js = animações e demonstração
+
+PRÓXIMOS AJUSTES:
+- Logo oficial da 7ZY
+- Preços
+- Links de checkout
+- Discord / suporte
+- Imagens reais do painel 7ZY
+- Hospedagem online com domínio
+
+Observação: os números mostrados no painel de demonstração e no Antes x Depois são ilustrativos.
